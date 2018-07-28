@@ -22,8 +22,12 @@ let out = "The line is currently: ";
 if (katzDeliLine.length === 0)return 'The line is currently empty.';
 
 for (let i =1; i <= katzDeliLine.length; i++){
-out = `${out}${i} .${katzDeliLine[i-1]},`
-
+if (i === katzDeliLine.length){
+  out = `${out}${i}. ${katzDeliLine[i-1]}`;
+}
+  else{
+out = `${out}${i}. ${katzDeliLine[i-1]}, `;
+}
 }
 
 return out;
