@@ -5,7 +5,7 @@ var katzDeliLine = 0;
 
 function takeANumber(name){
 
-katzDeli[katzDeliline]  = name;
+katzDeli[katzDeliLine]  = name;
 katzDeliLine ++;
 return katzDeliLine;
 
