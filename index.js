@@ -9,3 +9,15 @@ katzDeliLine.push(name);
 return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 
 }
+
+function nowServing (katzDeliLine){
+
+`Currently serving ${katzDeliLine.shift()}.`
+
+}
+
+function currentLine (katzDeliLine){
+
+
+  
+}
