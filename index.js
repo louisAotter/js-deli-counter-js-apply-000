@@ -1,12 +1,11 @@
-var katzDeli = [];
-var katzDeliLine = 0;
+var katzDeliLine = [];
 
 
 
-function takeANumber(name){
+function takeANumber(katzDeliLine, name){
 
-katzDeli[katzDeliLine]  = name;
-katzDeliLine ++;
-return katzDeliLine;
+katzDeliLine.push(name);
+
+return katzDeliLine.length;
 
 }
